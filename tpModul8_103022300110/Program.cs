@@ -9,6 +9,7 @@ class Program
 
         //config.UbahSatuan();
 
+        Console.WriteLine($"Satuan suhu saat ini: {config.satuan_suhu}");
         Console.Write("Apakah kamu ingin mengubah satuan suhu? (y/n): ");
         string jawab = Console.ReadLine()?.ToLower();
 

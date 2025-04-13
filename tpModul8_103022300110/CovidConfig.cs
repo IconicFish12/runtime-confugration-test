@@ -42,8 +42,13 @@ namespace tpModul8_103022300110
 
         public void UbahSatuan()
         {
-            satuan_suhu = "fahrenheit";
+            if (satuan_suhu == "celcius")
+                satuan_suhu = "fahrenheit";
+            else
+                satuan_suhu = "celcius";
+
             Save();
         }
+
     }
 }
